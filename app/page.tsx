@@ -51,7 +51,7 @@ export default function Page() {
           "Mobile App Access",
           "One-year maintenance check",
         ],
-        price: "Installation $25",
+        price: "Each camera $25 -$38 ",
         duration: "2–4 hours installation",
         warranty: "2 Years Warranty",
       },
@@ -72,7 +72,7 @@ export default function Page() {
           "Emergency Power Supply",
           "Integration with smart home systems",
         ],
-        price: "Starting from $25",
+        price: "quote based on model",
       duration: "1–2 hours installation",
         warranty: "3 Years Warranty",
       },
@@ -174,7 +174,7 @@ export default function Page() {
     e.preventDefault();
     console.log("Form Submitted:", contactForm);
     // Halkan ku dar code-kaaga dhabta ah ee u diraya API-ga ama Email-ka.
-    alert(`Message for service: "${contactForm.subject}" from ${contactForm.name} sent successfully! (Tijaabo)`);
+    alert(`Message for service: "${contactForm.subject}" from ${contactForm.name} sent successfully!`);
     setContactForm({ name: "", email: "", subject: "", message: "" }); // Clear form
   };
   
